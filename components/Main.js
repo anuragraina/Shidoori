@@ -13,7 +13,7 @@ class Main extends React.Component {
     return (
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
-        <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Us</h2>
           <ul>
             <li>              
@@ -29,15 +29,26 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="services" className={`${this.props.article === 'services' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Services</h2>
-          <span className="image main"><img src="/static/images/pic02.jpg" alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <ul>
+            <li>              
+              <p>ShiDOORi Foodtech offers a range of ready-to-cook and ready-to-eat products and services through its FMCG product line, cloud kitchen-based meal kit offerings through FSAs and a complete grocery delivery service according to individual recipes, subscriptions on basis of eating habits.</p>
+            </li>
+            <li>
+              <p>We eliminate the mundane task of grocery buying and provide you complete delivery option through our platform. You no longer need to put extra efforts for food preparations, our reliable cloud kitchen service caters to your specific taste and eating habits.</p>
+            </li>
+            <li>
+              <p>With that we plan to expand our offering by launching a FMCG brand for ready-to-cook and ready-to-eat food which you can buy at any supermarkets or through online grocery delivery services.</p>
+            </li>
+            <li>
+              <p>Providing hygienic and healthy food throughout our platforms which is required to live in a post-pandemic world, is our promise.</p>
+            </li>
+          </ul>
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="team1" className={`${this.props.article === 'team1' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Our Team</h2>
           <div className="team">
             <div className="member">
