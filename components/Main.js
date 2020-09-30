@@ -15,9 +15,17 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Us</h2>
-          <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <ul>
+            <li>              
+              <p>We believe in principles of bringing to the world an alternate truth through technology to help the society adopt our ideas for social innovation and integration.</p>
+            </li>
+            <li>
+              <p>Our vision is to improve standard of living and hygiene of food consumed by growing middle class population in India, by providing healthy and clean food which people can cook themselves in the hygiene of their own kitchen.</p>
+            </li>
+            <li>
+              <p>We aim to start operations form Pune and other tier 1&2 cities of Maharashtra before coming up with a sustainable model to copy the success for expanding pan-India.</p>
+            </li>
+          </ul>
           {close}
         </article>
 
