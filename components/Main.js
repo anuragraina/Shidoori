@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
-import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
-import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
+// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+// import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
+// import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook'
+// import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram'
+// import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
 
 class Main extends React.Component {
   render() {
@@ -36,7 +36,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        {/* <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <form method="post" action="#">
             <div className="field half first">
@@ -71,7 +71,7 @@ class Main extends React.Component {
             </a></li>
           </ul>
           {close}
-        </article>
+        </article> */}
 
       </div>
     )
