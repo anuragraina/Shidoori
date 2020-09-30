@@ -4,10 +4,9 @@ import PropTypes from 'prop-types';
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        <div className="logo">
             {/*<span className="icon fa-diamond"></span>*/}
             <img src="/static/images/logo.png" alt="Logo" className="logo" />
-        </div>
+        
         <div className="content">
             <div className="inner">
                 <h1>Shidoori</h1>

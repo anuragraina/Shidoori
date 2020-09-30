@@ -31,8 +31,28 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Our Team</h2>
-          <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <div className="team">
+            <div className="member">
+              <img src="/static/images/pranav.jpeg" alt="" className="avatar" />
+              <p className="name">Pranav Kardale</p>
+              <p className="role">Finance, Governance and Strategy</p>
+            </div>
+            <div className="member">
+              <img src="/static/images/anurag.jpg" alt="" className="avatar" />
+              <p className="name">Anurag Raina</p>
+              <p className="role">Technology Developments</p>
+            </div>
+            <div className="member">
+              <img src="/static/images/dheeraj.jpg" alt="" className="avatar" />
+              <p className="name">Dheeraj Bhurewar</p>
+              <p className="role">Head of Operations</p>
+            </div>
+            <div className="member">
+              <img src="/static/images/abdul.jpg" alt="" className="avatar" />
+              <p className="name">Abdulkadir Malpurwala</p>
+              <p className="role">Digital Marketing and Web Presence</p>
+            </div>
+          </div>
           {close}
         </article>
 

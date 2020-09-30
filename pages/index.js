@@ -74,7 +74,7 @@ class IndexPage extends React.Component {
                 <div>
                     <Head>
                         <link rel="icon" href="/static/images/favicon.ico" />
-                        <title>Shidoori</title>
+                        <title>Shidoori Foodtech</title>
                         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                     </Head>
 
