@@ -23,7 +23,7 @@ class Main extends React.Component {
               <p>Our vision is to improve standard of living and hygiene of food consumed by growing middle class population in India, by providing healthy and clean food which people can cook themselves in the hygiene of their own kitchen.</p>
             </li>
             <li>
-              <p>We aim to start operations form Pune and other tier 1&2 cities of Maharashtra before coming up with a sustainable model to copy the success for expanding pan-India.</p>
+              <p>We aim to start operations form Pune and other tier 1&2 cities of Maharashtra before expanding pan-India.</p>
             </li>
           </ul>
           {close}
